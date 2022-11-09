@@ -1,0 +1,29 @@
+form {
+    border: 2px solid blue;
+    width: min-content;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+    text-align: center;
+}
+
+form input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+}
+button {
+    width: 130px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.my-error-div {
+    color: red;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    transform: scale();
+    transition: 0.5s;
+}
